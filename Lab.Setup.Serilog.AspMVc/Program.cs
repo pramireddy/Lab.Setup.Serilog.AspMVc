@@ -20,7 +20,7 @@ namespace Lab.Setup.Serilog.AspMVc
             }
             catch (Exception exception)
             {
-                Log.Fatal(exception, "Failed to initial HostBuilder");
+                Log.Fatal(exception, "Failed to initialize HostBuilder");
             }
             finally
             {
